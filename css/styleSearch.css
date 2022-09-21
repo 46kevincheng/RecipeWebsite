@@ -1,0 +1,195 @@
+body{
+    background-size: auto;
+    /* background-color: rgb(24, 23, 23); */
+    background-color: #CD5C5C;
+    background-repeat: no-repeat;
+}
+.wrap{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#userWelcome{
+    color: #e7e7e7;
+    margin-top: 10px;
+    font-size: 30px;
+    position: absolute;
+    right: 100px;
+    font-family: "Lucida Handwriting";
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: baseline; */
+
+}
+
+.title a{
+    margin-left: 42px;
+    margin-bottom: 30px;
+}
+
+.title ul{
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 42px;
+    
+}
+
+.title li{
+    margin-left: 60px;
+    margin-left: 10px;
+    list-style:none;
+    color: #ffffff;
+}
+
+.title li a{
+    color: #ffffff;
+    font-weight: bold;
+    font: PingFang TC;
+}
+.title li a:hover{
+    color: #d3f8fc;
+    font-weight: bold;
+    font: PingFang TC;
+}
+.list{
+    margin-top: 65px;
+}
+.list a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/*--------------search Start------------------*/
+.material-symbols-outlined {
+    color: white;
+    /* background-color: rgb(24, 23, 23); */
+    background-color: #CD5C5C;
+    /* margin-left: 10px; */
+}
+.searchBox{
+    /* margin-top: 30px; */
+    margin: auto;
+    margin-top: 3%;
+    position: relative;
+    width: 500px;
+    height: 42px;
+    border: 4px solid #ffffff;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+
+.searchText{
+    width: 500px;
+    height: 100%;
+    vertical-align: middle;
+}
+.search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: "Nunito";
+    margin-right: 30px;
+    color: #424242;
+    font-weight: 500;
+}
+.search:focus{
+    outline: none;
+}
+
+.searchButton{
+    /* background-color: rgb(24, 23, 23); */
+    background-color: #CD5C5C;
+    /* border: rgb(24, 23, 23); */
+    border: #CD5C5C;
+}
+.material-symbols-outlined:hover{
+    cursor:pointer ;
+}
+/*-----------------------search End---------------------*/
+
+/*-----------------------header result start---------------------*/
+.headerText{
+    color : white;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+    width: 560px;
+}
+
+/*-----------------------header result End---------------------*/
+
+/*--------------each recipe container Start------------------*/
+.outContainer{
+    border-style: solid;
+    border-color: darkred;
+    border-width: 3px;
+    width: 1095px;
+    height: 218px;
+	margin-bottom:50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.outContainer:hover{
+    cursor:pointer ;
+    transform:scale(1.05) ;
+    box-shadow:10px 10px 5px rgba(0,0,0,0.8);
+}
+/*-----------------------container End---------------------*/
+/*--------------------------每道菜內容 Start------------------*/
+.content{
+    color: black ;
+    content: "";
+    display: table;
+    clear:both;
+}
+.content:hover{
+    cursor:pointer ;
+}
+.column{
+    float: left;
+    height: 192px;
+}
+.column.image{
+    margin: 5px;
+    width: 256px;
+    margin-right: 20px;
+}
+.column.middle {
+    background-color: bisque;
+    padding: 10px;
+    width: 200px;
+}
+.dishname{
+    font-weight:bold;
+    padding-top: 5px;
+    font-size: 25px;
+}
+.dishtype{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.chef{
+    font-size: 20px;
+    padding-top: 30px;
+}
+.likes{
+    font-size: 10px;
+    padding-top: 30px;
+}
+.column.intro {
+    text-align: left;
+    font-size: 15px;
+    padding: 5px;
+    width: 565px;
+}
+/*-----------------------每道菜內容 End---------------------*/
+

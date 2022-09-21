@@ -1,0 +1,312 @@
+body{
+    /* background: -webkit-linear-gradient(#3F5D45,white);
+    background: -o-linear-gradient(#3F5D45,white);
+    background: -moz-linear-gradient(#3F5D45,white); */
+    /* background: linear-gradient(#3F5D45,white); */
+    background-size: auto;
+    background-color: #710826;
+    /* background-image: url(picture\background.png) ; */
+    background-repeat: no-repeat;
+}
+.wrap{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* border: 1px solid #c3c3c3; */
+
+}
+
+#userWelcome{
+    color: #e7e7e7;
+    margin-top: 10px;
+    font-size: 30px;
+    position: absolute;
+    right: 100px;
+    font-family: "Lucida Handwriting";
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: baseline; */
+
+}
+
+.title a{
+    margin-left: 42px;
+    margin-bottom: 30px;
+}
+
+.title ul{
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 42px;
+    
+}
+
+.title li{
+    margin-left: 60px;
+    margin-left: 10px;
+    list-style:none;
+    color: #ffffff;
+}
+
+.title li a{
+    color: #ffffff;
+    font-weight: bold;
+    font: PingFang TC;
+    font-size: 25px;
+}
+.title li a:hover{
+    color: #d3f8fc;
+    font-weight: bold;
+    font: PingFang TC;
+}
+.list{
+    margin-top: 65px;
+}
+.list a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/*--------------search Start------------------*/
+.material-symbols-outlined {
+    color: rgb(247, 244, 244);
+    margin-left: 10px;
+}
+.material-symbols-outlined:hover {
+    color: rgb(133, 127, 127);
+    margin-left: 10px;
+}
+.searchBox{
+    /* margin-top: 30px; */
+    margin: auto;
+    margin-top: 3%;
+    position: relative;
+    width: 500px;
+    height: 42px;
+    border: 4px solid #ffffff;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+
+.searchText{
+    width: 500px;
+    height: 100%;
+    vertical-align: middle;
+}
+.search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: "Nunito";
+    margin-right: 30px;
+    color: #424242;
+    font-weight: 500;
+}
+.searchbutton{
+    background-color: #710826;
+    border: none;
+}
+.search:focus{
+    outline: none;
+}
+/*-----------------------search End---------------------*/
+
+/*-------------------------分類START-------------------------*/
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.image:hover{
+    width: 510px;
+}
+
+.post {
+	/* border-bottom:1px solid #e5e5e5; */
+    border-bottom:1px solid #e5e5e5;
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+	/* margin-bottom:100px; */
+}
+.post img{
+    margin-top: 50px;
+}
+
+.leftText{
+    width: 500px;
+    /* border:1px solid #e5e5e5; */
+}
+.leftPicture{
+    width: 550px;
+    /* border:1px solid #e5e5e5; */
+}
+.rightText{
+    width: 450px;
+    /* border:1px solid #e5e5e5; */
+}
+
+
+.button{
+    background-color: #e5e5e5;
+    border-radius: 50px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    margin: 4px 300px;
+}
+
+.button:hover{
+    background-color: #4c4949;
+    border-radius: 50px;
+    color: #d3f8fc;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    margin: 4px 300px;
+}
+
+/*-------------------------分類END-------------------------*/
+
+/*-------------------Upload Start--------------------------*/
+.Upload{
+    width: 80%;
+    /* border: 5px solid #424242; */
+    margin: auto;
+    /* text-align: center; */
+}
+.Uploadleft{
+    margin-top: 80px;
+    /* margin-left: 150px; */
+    /* float: left; */
+    /* justify-content: space-around; */
+    /* margin-left: auto; */
+}
+.Uploadleft p{
+    color:#e7e7e7;
+    font-size: 25px;
+    font: PingFang TC;
+}
+.leftline{
+    width: 280px;
+    height: 40px;
+    border-color: rgb(255, 153, 0);
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.Uploadright{
+    margin-top: 80px;
+    /* margin-left: 700px; */
+    /* float: right; */
+
+}
+.Uploadright p{
+    color:#e7e7e7;
+    font-size: 25px;
+}
+.option{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
+#file{
+    color:#e7e7e7;
+    font-size: 20px;
+}
+.steptext{
+    width: 800px;
+    height: 300px;
+    border-color: rgb(255, 153, 0);
+    text-align: start;
+}
+.introtext{
+    width: 800px;
+    height: 300px;
+    border-color: rgb(255, 153, 0);
+    text-align: start;
+}
+.centerline{
+    resize:none;
+    border-color: rgb(255, 153, 0);
+    border-width: 2px;
+    font-size: 15px;
+}
+
+#Uploadform{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+/*----------------------Upload End--------------------------*/
+
+/*----------------------Recipe List Start---------------------*/
+
+.top img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.recipelist{
+    width: 90%;
+    height: 500px;
+    color: #e7e7e7;
+    border: 1px solid #c3c3c3;
+    margin: 100px;
+    display: flex;
+    /* width: 700px; */
+   /* margin-left: 20px; */
+    flex-wrap: wrap;
+}
+
+.information_link{
+    color: #e7e7e7;
+    list-style:none;
+}
+
+/*----------------------Recipe List End---------------------*/
+
+
+.menu_Row{
+    position: absolute;
+    padding-top:15px;
+    padding-left:50px;
+    display: inline-block;
+  }
+  .dropBtn{
+      background-color: black;
+  }
+  .dropdown-content {
+    display: none;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    bottom:70px;
+    left:85px;
+  }
+
+  .menu_Row:hover .dropdown-content {
+    display: block;
+    width: 600px;
+  }
+
+  .menu_Row:hover .dropdown-content a {
+    display: block;
+    width: 600px;
+  }

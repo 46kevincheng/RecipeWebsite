@@ -1,0 +1,235 @@
+body{
+    /* background: -webkit-linear-gradient(#3F5D45,white);
+    background: -o-linear-gradient(#3F5D45,white);
+    background: -moz-linear-gradient(#3F5D45,white); */
+    /* background: linear-gradient(#3F5D45,white); */
+    background-size: auto;
+    background-color: #f2aee9;
+    /* background-image: url("picture\chineseBackground.png") ; */
+    background-repeat: no-repeat;
+}
+
+.index_body {
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url("picture\chineseBackground.png");
+    background-position: right top, 110% 50%;
+    background-repeat: no-repeat, no-repeat;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+
+.wrap{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* border: 1px solid #c3c3c3; */
+
+}
+
+#userWelcome{
+    color: #9e4be7;
+    margin-top: 10px;
+    font-size: 30px;
+    position: absolute;
+    right: 100px;
+    font-family: "Lucida Handwriting";
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: baseline; */
+
+}
+
+.title a{
+    margin-left: 42px;
+    margin-bottom: 30px;
+}
+
+.title ul{
+    display: flex;
+    color: #9e4be7;
+    text-decoration: none;
+    margin-right: 42px;
+    
+}
+
+.title li{
+    margin-left: 60px;
+    margin-left: 10px;
+    list-style:none;
+    font-size: 25px;
+    color: #9e4be7;
+}
+
+.title li a{
+    color: #9e4be7;
+    font-weight: bold;
+    font: PingFang TC;
+}
+.title li a:hover{
+    color: #46186e;
+    font-weight: bold;
+    font: PingFang TC;
+}
+.list{
+    margin-top: 65px;
+}
+.list a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/*------------------------menu Start---------------------------*/
+
+.menu{
+    width: 90%;
+    height: 200px;
+    /* border: 1px solid #c3c3c3; */
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content:space-around;
+}
+.menu ul{
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+.menu li{
+    list-style:none;
+}
+
+.menu a{
+    /* width: 70px; */
+    height: 160px;
+    position:absolute;
+    text-decoration: none;
+    text-align: center;
+    left: 35px;
+    top: 16px;
+    writing-mode: vertical-lr;
+    font-size: 30px;
+    font-style: oblique;
+    font-family: cursive;
+    font-weight:900;
+    color: #9e4be7;
+    padding-right: 18px;
+    padding-left: 18px;
+    letter-spacing: 0px;
+    /* border: 1px solid #c3c3c3; */
+}
+
+.menu a:hover{
+    /* width: 70px; */
+    height: 160px;
+    position:absolute;
+    text-decoration: none;
+    text-align: center;
+    left: 35px;
+    top: 16px;
+    writing-mode: vertical-lr;
+    font-size: 32px;
+    font-style: oblique;
+    font-family: cursive;
+    font-weight:900;
+    color: #46186e;
+    padding-right: 18px;
+    padding-left: 18px;
+    letter-spacing: 0px;
+    /* border: 1px solid #c3c3c3; */
+}
+.menupicture{
+    height: 100px;
+}
+.type{
+    position: relative;
+}
+
+
+
+
+/*------------------------menu End-------------------------------*/
+
+
+
+/*----------------------Recipe List Start---------------------*/
+
+.top img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.recipelist{
+    width: 90%;
+    /* height: 500px; */
+    color: #9e4be7;
+    font-size: 20px;
+    justify-content:first baseline;
+    text-align:justify;
+    /* border: 1px solid #c3c3c3; */
+    margin: 100px;
+    display: flex;
+    /* width: 700px; */
+   /* margin-left: 20px; */
+    flex-wrap: wrap;
+    float: left;
+}
+
+.oneDish{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /* margin: auto; */
+    text-align: center;
+}
+
+.content{
+    justify-content: space-between;
+
+}
+
+.content ul{
+    color: #9e4be7;
+    text-decoration: none;
+    margin-right: 42px;
+    
+}
+
+.content li{
+    margin-left: 60px;
+    margin-left: 10px;
+    list-style:none;
+    color: #9e4be7;
+}
+
+.content li a{
+    color: #9e4be7;
+    font-weight: bold;
+    font: PingFang TC;
+    font-size: larger;
+}
+.content li a:hover{
+    color: #46186e;
+    font-weight: bold;
+    font: PingFang TC;
+    font-size: larger;
+}
+
+.dishList a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.headerText{
+    color : #9e4be7;
+    font-weight: bold;
+    font: PingFang TC;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+}
+
+/*----------------------Recipe List End---------------------*/

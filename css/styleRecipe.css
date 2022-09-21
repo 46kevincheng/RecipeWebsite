@@ -1,0 +1,388 @@
+body{
+    background-size: auto;
+    /* background-color: rgb(24, 23, 23); */
+    background-color: #CD5C5C;
+    background-repeat: no-repeat;
+}
+.wrap{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#userWelcome{
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 30px;
+    position: absolute;
+    right: 100px;
+    font-family: "Lucida Handwriting";
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: baseline; */
+
+}
+
+.title a{
+    margin-left: 42px;
+    margin-bottom: 30px;
+}
+
+.title ul{
+    display: flex;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 42px;
+    
+}
+
+.title li{
+    margin-left: 60px;
+    margin-left: 10px;
+    list-style:none;
+    color: #ffffff;
+}
+
+.title li a{
+    color: #ffffff;
+    font-weight: bold;
+    font: PingFang TC;
+}
+.title li a:hover{
+    color: #d3f8fc;
+    font-weight: bold;
+    font: PingFang TC;
+}
+.list{
+    margin-top: 65px;
+}
+.list a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/*--------------search Start------------------*/
+.material-symbols-outlined {
+    color: white;
+    /* background-color: rgb(24, 23, 23); */
+    background-color: #CD5C5C;
+    /* margin-left: 10px; */
+}
+.searchBox{
+    /* margin-top: 30px; */
+    margin: auto;
+    margin-top: 3%;
+    position: relative;
+    width: 500px;
+    height: 42px;
+    border: 4px solid #ffffff;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+
+.searchText{
+    width: 500px;
+    height: 100%;
+    vertical-align: middle;
+}
+.search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: "Nunito";
+    margin-right: 30px;
+    color: #424242;
+    font-weight: 500;
+}
+.search:focus{
+    outline: none;
+}
+
+.searchButton{
+    /* background-color: rgb(24, 23, 23); */
+    background-color: #CD5C5C;
+    /* border: rgb(24, 23, 23); */
+    border: #CD5C5C;
+}
+.material-symbols-outlined:hover{
+    cursor:pointer ;
+}
+/*-----------------------search End---------------------*/
+/*--------------each recipe container Start------------------*/
+.container{
+    color:white ;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.column.dishname{
+    font-size: 50px ;
+    font-weight:bold;
+    /* border: 5px solid blue; */
+    margin: 10px;
+}
+.column.chef{
+    /* margin-left: 200px ; */
+    /* padding-top: 20px ; */
+    font-size: 25px ;
+    /* border: 5px solid blue; */
+    margin-top: 40px;
+    margin-left:100px;
+}
+.column.heartBtn{
+    /* margin-left: 200px ; */
+    /* padding-top: 20px ; */
+    /* border: 5px solid blue; */
+    margin-top: 40px;
+    margin-left:100px;
+}
+.heartBtn_Text{
+    display: none ;
+}
+.column.heartBtn:hover + .heartBtn_Text{
+    display: inline ;
+    line-height:110px;
+    margin-left: 20px;
+    
+    font-size: 20px;
+    /* border: 5px solid black; */
+}
+.column.heartBtn:hover{
+    cursor:pointer ;
+    transform:scale(1.05) ;
+}
+.column.image{
+    margin:10px 10px 20px 30px ;   /*top right bottom left*/
+}
+.column.type{
+    padding-top: 20px ;
+    /* margin-top: 30px ; */
+    font-size: 25px ;
+    /* background-color:black; */
+    /* border: 2px solid blue; */
+}
+.column.serve{
+    padding-top: 20px ;
+    padding-left: 130px ;
+    font-size: 25px ;
+    /* border: 2px solid blue; */
+}
+.recipe_intro{
+    /* border: 5px solid black; */
+    margin-left:100px;
+}
+.row1{  
+    /* border: 1px solid black; */
+    border:none;
+    height:90px;
+    width:700px;
+    margin-top:10px;
+    /* margin: auto; */
+    /* justify-content:space-around; */
+}
+.rowIntro{  
+    /* border: 1px solid black; */
+    border:none;
+    width:700px;
+    margin-top:10px;
+    /* margin: auto; */
+    /* justify-content:space-around; */
+}
+.rowHeart{  
+    /* border: 1px solid black; */
+    border:none;
+    height:90px;
+    width:700px;
+    margin-top:20px;
+    padding-left:450px;
+    /* margin: auto; */
+    /* justify-content:flex-end; */
+    /* float:right; */
+}
+.intro{
+    /* width: 200px ; */
+    /* height: 200px ; */
+    /* background-color: black ; */
+    /* border-radius: 12px; */
+    /* padding-top:30px ; */
+    font-size: 25px ;
+    /* position: relative ; */
+    /* left: 530px ; */
+    /* bottom: 230px ; */
+}
+.ingre_cont{
+    width:85%;
+    margin:10px auto;
+    padding:15px 15px 15px 15px;
+    line-height:40px;
+    /* border:2px solid black; */
+    border:none;
+}
+.step_cont{
+    width:85%;
+    margin:10px auto;
+    padding:15px 15px 15px 15px;
+    line-height:50px;
+    /* border:2px solid black; */
+    border:none;
+}
+.ingreTitle{
+    font-size:30px;
+    font-weight:bold;
+}
+.ingre{
+    margin-bottom: 30px ;
+    font-size:22px;
+}
+.ingreText{
+    font-size:22px;
+    display:inline-block;
+    padding-left:10px;
+    padding-right:30px;
+}
+.stepTitle{
+    margin-bottom: 15px ;
+    font-size:30px;
+    font-weight:bold;
+}
+.steps{
+    margin-top: 20px ;
+    font-size:25px;
+}
+/*-----------------------container End---------------------*/
+/*--------------------upload comment Start------------------*/
+.hearty{
+    margin-left: 50px ;
+}
+.heartButton{
+    background-color: #CD5C5C;
+    border-style: hidden;
+    margin-top: 20px ;
+}
+.heartButton:hover{
+    cursor:pointer ;
+    transform:scale(1.05) ;
+}
+.uploadComment{
+    background-color: #D3D3D3;
+    width: 730px ;
+    height:150px;
+    /* margin-top: 70px;
+    margin-bottom: 100px ; */
+    margin: 50px auto;
+    border-radius:10px;
+}
+
+.inputText{
+    width: 600px;
+    height:100px;
+    resize:none;
+    /* border:5px solid blue; */
+    border-radius:10px;
+    margin-left:20px;
+    margin-top:20px;
+    font-size:16px;
+}
+input[type=text] {
+    margin: 15px ;
+    width: 600px;
+    height: 80px;
+}
+.commentbutton{
+    width:65px;
+    height:45px;
+    margin-left:20px;
+    background-color:#CD5C5C;
+    border: 4px solid #710826;
+    border-radius:8px;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+}
+.commentbutton:hover{
+    cursor:pointer ;
+}
+.deleteBtn{
+    float:right;
+    margin-right:250px;
+    margin-top:30px;
+
+
+}
+.deleteBtn:hover{
+    cursor:pointer ;
+}
+
+/*--------------------upload comment End------------------*/
+/*--------------------comment section Start------------------*/
+.commentSection{
+    background-color: #CD5C5C;
+}
+.com_container{
+    /* border: 2px solid blue; */
+    border-radius:12px;
+    width: 800px ;
+    height:100px;
+    margin:10px auto;
+    background-color:pink;
+}
+.comment{
+    /* background-color: aliceblue; */
+    color:black;
+    background-color:white;
+    border-radius:8px;
+    font-size:20px;
+    font: PingFang TC;
+    padding: 10px 10px 10px 10px;
+    /* border: 2px solid green; */
+    margin:10px 15px 0px 15px;
+}
+.commentData{
+    /* border: 2px solid green; */
+    content: "";
+    display: flex;
+    justify-content:space-around;
+    clear: both;
+    color:MidnightBlue;
+    font-size:18px;
+    margin:0px 15px 0px 15px;
+}
+.row{
+    /* padding: 10px 10px 10px 50px; top right bottom left */
+    /* width:90%; */
+    content: "";
+    /* display: table; */
+    display: flex;
+    clear: both;
+    /* border: 5px solid green; */
+    border:none;
+}
+.column{
+    float: left;
+}
+.column.name{
+    font-weight: bold;
+}
+.column.date{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.column.like{
+    background-color: pink;
+    font-size:25px;
+    color:MidnightBlue;
+    margin-left:20px;
+}
+
+.likeButton{
+    /* background-image:url("picture/likeButton.png"); */
+    cursor:pointer ;
+    transform:scale(1.05) ;
+}
+/*--------------------comment section End------------------*/
